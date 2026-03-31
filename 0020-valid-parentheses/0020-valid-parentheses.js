@@ -16,18 +16,15 @@ function isValid(s) {
     "]": "[",
   };
 
-  for (const char of s) {
-    if (char in mapping) {
-      // 닫는 괄호
-      if (stack.length === 0 || stack[stack.length - 1] !== mapping[char]) {
-        return false;
-      }
-      stack.pop();
-    } else {
-      // 여는 괄호
-      stack.push(char);
+  for(const char of s){
+    if(char in mapping){
+        if(stack.length == 0 || stack[stack.length -1] !== mapping[char]) return false
+        stack.pop()
+    }else{
+        stack.push(char)
     }
   }
+  return stack.length === 0
 
-  return stack.length == 0;
+
 }
