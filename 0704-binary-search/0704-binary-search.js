@@ -10,6 +10,8 @@ var search = function(nums, target) {
     //     }
     // }
     // return -1;
+    // 시간복잡도 0(log n) 
+    // 공간복잡도 0(1)
     let left = 0;
     let right = nums.length -1;
 
