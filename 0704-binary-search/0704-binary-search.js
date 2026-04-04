@@ -19,9 +19,9 @@ var search = function(nums, target) {
         }
 
         if(nums[mid] < target){
-            left += 1;
+            left = mid + 1;
         }else{
-            right -= 1;
+            right = mid - 1;
         }
     }
     return -1;
