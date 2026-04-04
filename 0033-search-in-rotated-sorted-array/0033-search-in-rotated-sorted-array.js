@@ -22,27 +22,22 @@ var search = function(nums, target) {
 
     while(left <= right){
         const mid  = left + Math.floor((right - left) / 2);
-
-        if(nums[mid] === target){
+        if (nums[mid] === target) {
             return mid;
         }
-        // 왼쪽이 정렬된 경우
         if(nums[left] <= nums[mid]){
             if(nums[left] <= target && target < nums[mid]){
-                // target이 left ~ mid 사이에 있다
-                right = mid -1;
+                right = mid - 1;
             }else{
-                left = mid +1;
+                left = mid + 1;
             }
         }else{
-            // 오른쪽이 정렬된 경우
             if(nums[mid] < target && target <= nums[right]){
-                // target이 mid ~ right 사이에 있다
-                left = mid + 1;
+                left = mid +1;
             }else{
                 right = mid -1;
             }
         }
     }
     return -1;
-};
+}
