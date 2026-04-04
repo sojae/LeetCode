@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/sojae/LeetCode/tree/master/0001-two-sum) |
+| [0033-search-in-rotated-sorted-array](https://github.com/sojae/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/sojae/LeetCode/tree/master/0035-search-insert-position) |
 | [0128-longest-consecutive-sequence](https://github.com/sojae/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0704-binary-search](https://github.com/sojae/LeetCode/tree/master/0704-binary-search) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/sojae/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/sojae/LeetCode/tree/master/0035-search-insert-position) |
 | [0704-binary-search](https://github.com/sojae/LeetCode/tree/master/0704-binary-search) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/sojae/LeetCode/tree/master/0744-find-smallest-letter-greater-than-target) |
