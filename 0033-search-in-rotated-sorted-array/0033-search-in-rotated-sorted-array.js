@@ -29,6 +29,7 @@ var search = function(nums, target) {
         // 왼쪽이 정렬된 경우
         if(nums[left] <= nums[mid]){
             if(nums[left] <= target && target < nums[mid]){
+                // target이 left ~ mid 사이에 있다
                 right = mid -1;
             }else{
                 left = mid +1;
@@ -36,6 +37,7 @@ var search = function(nums, target) {
         }else{
             // 오른쪽이 정렬된 경우
             if(nums[mid] < target && target <= nums[right]){
+                // target이 mid ~ right 사이에 있다
                 left = mid + 1;
             }else{
                 right = mid -1;
