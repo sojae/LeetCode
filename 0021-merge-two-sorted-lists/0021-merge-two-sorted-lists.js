@@ -11,7 +11,7 @@
  * @return {ListNode}
  */
 var mergeTwoLists = function(list1, list2) {
-    // dfs
+    // 재귀풀이
     // if(list1 === null) return list2;
     // if(list2 === null) return list1;
 
