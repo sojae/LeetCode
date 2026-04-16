@@ -108,3 +108,27 @@ var reverseList = function(head) {
     // 항상 처음 끝노드(5)를 반환
     return newHead;
 };
+var reverseList = function(head) {
+    let prev = null
+    let curr = head
+    // 예시: 1 → 2 → 3 → null
+    while(curr){
+        const next = curr.next
+        // next = 2
+        // next = 3
+        // next = null
+        curr.next = prev
+        // 1.next = 1 -> null
+        // 2.next = 2 -> 1 -> null
+        // 3.next = 3 -> 2 -> 1 -> null
+        prev = curr
+        // prev = 1
+        // prev = 2
+        // prev = 3
+        curr = next
+        // curr = 2 
+        // curr = 3
+        // curr = null
+    }
+    return prev
+};
