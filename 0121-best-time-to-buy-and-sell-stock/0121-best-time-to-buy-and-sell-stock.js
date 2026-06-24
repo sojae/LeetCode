@@ -4,14 +4,18 @@
  */
  
 var maxProfit = function(prices) {
-    let minPrice = prices[0];  // Infinity 대신 첫 값
+//  * 전략:
+// 최저가와 최대이익값생성
+    let minPrice = prices[0];
     let maxProfit = 0;
 
-    for (const price of prices) {
+    for(const price of prices){
+        // 최대이익값 갱신
         maxProfit = Math.max(maxProfit, price - minPrice);
-        minPrice = Math.min(minPrice, price);
-    }
 
+        // 최소값 갱신
+        minPrice = Math.min(minPrice,price);
+    }
     return maxProfit;
 };
  
