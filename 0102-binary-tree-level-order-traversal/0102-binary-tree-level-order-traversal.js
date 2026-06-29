@@ -13,14 +13,14 @@
 var levelOrder = function(root) {
     if(!root)return []
 
-    const result =[];
+    const result = [];
     const queue = [root];
 
-    while(queue.length >0){
-        const levelSize = queue.length
-        const level = []
-
-        for(let i = 0; i<levelSize; i++){
+    while(queue.length>0){
+        const levelSize = queue.length;
+        const level = [];
+        
+        for(let i =0; i < levelSize; i++){
             const node = queue.shift();
             level.push(node.val);
 
@@ -30,5 +30,4 @@ var levelOrder = function(root) {
         result.push(level)
     }
     return result
-    
 };
