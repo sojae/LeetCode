@@ -9,13 +9,17 @@
 /**
  * @param {TreeNode} root
  * @return {boolean}
+ BST + DFS
+ * 시간복잡도: O(n) - 모든 노드를 한 번씩 방문
+ * 공간복잡도: O(h) - 재귀 콜스택
  */
 var isValidBST = function(root) {
-    function dfs(node , min, max){
-        if(node === null)return true
-        if(node.val <= min)return false
-        if(node.val >= max)return false
-        return dfs(node.left, min, node.val) && dfs(node.right,node.val,max)
+    function dfs(node,min,max){
+        if(!node)return true;
+        if(node.val <= min || node.val >= max)return false;
+
+        return dfs(node.left, min, node.val) && dfs(node.right, node.val, max)
+
     }
-    return dfs(root, -Infinity, Infinity)
+   return dfs(root, -Infinity, Infinity)
 };
