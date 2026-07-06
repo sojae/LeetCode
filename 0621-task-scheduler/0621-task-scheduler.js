@@ -49,28 +49,30 @@
     }
  }
 var leastInterval = function(tasks, n) {
-    const freq = new Map()
+    const freq = new Map();
     for(const t of tasks){
-        freq.set(t,(freq.get(t)||0)+1)
+        freq.set(t,(freq.get(t)||0)+1);
     }
-    const heap = new MaxH()
-    for(const count of freq.values())heap.push(count)
+    const heap = new MaxH();
+
+    for(const val of freq.values())heap.push(val);
 
     let time = 0;
     let queue = [];
 
     while(heap.size() > 0 || queue.length > 0){
         time++
-        
+
         if(heap.size()>0){
-            const count = heap.pop() -1
-            if(count >0){
-                queue.push([count, time + n])
-            }
+            const count = heap.pop()-1
+             if(count > 0){
+            queue.push([count, time + n])}
         }
-        if(queue.length > 0 && queue[0][1] === time){
+
+        if(queue.length > 0 && queue[0][1]===time){
             heap.push(queue.shift()[0])
         }
     }
     return time
+   
 };
