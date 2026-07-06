@@ -1,7 +1,7 @@
 class TrieNode{
-  constructor(){
+    constructor(){
         this.children = {}
-        this.isEnd = false
+        this.isEnd = false 
     }
 }  
 class Trie {
@@ -36,6 +36,5 @@ class Trie {
             node = node.children[ch]
         }
         return true
-
     }
 }
