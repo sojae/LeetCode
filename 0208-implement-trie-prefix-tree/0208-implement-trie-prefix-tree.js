@@ -1,7 +1,8 @@
 class TrieNode{
     constructor(){
         this.children = {}
-        this.isEnd = false 
+        this.isEnd = false
+
     }
 }  
 class Trie {
@@ -17,7 +18,7 @@ class Trie {
             }
             node = node.children[ch]
         }
-        node.isEnd = true
+       node.isEnd = true;
     }
 
     search(word){
@@ -33,8 +34,9 @@ class Trie {
         let node = this.root
         for(const ch of prefix){
             if(!node.children[ch])return false
+
             node = node.children[ch]
         }
-        return true
+     return true
     }
 }
