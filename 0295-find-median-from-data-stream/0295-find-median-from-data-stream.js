@@ -132,30 +132,29 @@ class MedianFinder {
     }
 
     addNum(num){
-        // ① 일단 왼쪽에 넣기
         this.small.push(num)
 
-        // ② 왼쪽 최댓값이 오른쪽 최솟값보다 크면 → 오른쪽으로 이동
         if(this.large.size() > 0 && this.small.peek() > this.large.peek()){
-            this.large.push(this.small.pop())
+             this.large.push(this.small.pop())
         }
 
-        // ③ 크기 균형 맞추기
-        if(this.small.size() > this.large.size() + 1){
-            this.large.push(this.small.pop())  // 왼쪽이 너무 크면 오른쪽으로
+        if(this.small.size() > this.large.size()+1){
+             this.large.push(this.small.pop())
         }
-        if(this.large.size() > this.small.size() + 1){
-            this.small.push(this.large.pop())  // 오른쪽이 너무 크면 왼쪽으로
+        
+        if(this.large.size() > this.small.size()+1){
+             this.small.push(this.large.pop())
         }
+
     }
 
     findMedian(){
-        if(this.small.size() > this.large.size()){
-            return this.small.peek()  // 왼쪽이 더 크면 왼쪽 top
+        if(this.small.size()>this.large.size()){
+            return this.small.peek()
         }
-        if(this.large.size() > this.small.size()){
-            return this.large.peek()  // 오른쪽이 더 크면 오른쪽 top
+        if(this.small.size()<this.large.size()){
+            return this.large.peek()
         }
-        return (this.small.peek() + this.large.peek()) / 2  // 같으면 평균
+        return (this.small.peek()+this.large.peek())/2
     }
 }
