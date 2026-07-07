@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/sojae/LeetCode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/sojae/LeetCode/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/sojae/LeetCode/tree/master/0036-valid-sudoku) |
+| [0039-combination-sum](https://github.com/sojae/LeetCode/tree/master/0039-combination-sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sojae/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/sojae/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/sojae/LeetCode/tree/master/0200-number-of-islands) |
@@ -227,4 +228,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/sojae/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/sojae/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/sojae/LeetCode/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
