@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/sojae/LeetCode/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/sojae/LeetCode/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/sojae/LeetCode/tree/master/0039-combination-sum) |
+| [0079-word-search](https://github.com/sojae/LeetCode/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sojae/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/sojae/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/sojae/LeetCode/tree/master/0200-number-of-islands) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/sojae/LeetCode/tree/master/0020-valid-parentheses) |
+| [0079-word-search](https://github.com/sojae/LeetCode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/sojae/LeetCode/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/sojae/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/sojae/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -98,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/sojae/LeetCode/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/sojae/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/sojae/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/sojae/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -133,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/sojae/LeetCode/tree/master/0036-valid-sudoku) |
+| [0079-word-search](https://github.com/sojae/LeetCode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/sojae/LeetCode/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/sojae/LeetCode/tree/master/0733-flood-fill) |
 ## Two Pointers
@@ -232,4 +236,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/sojae/LeetCode/tree/master/0039-combination-sum) |
+| [0079-word-search](https://github.com/sojae/LeetCode/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
