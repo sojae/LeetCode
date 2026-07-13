@@ -5,26 +5,35 @@
 var numIslands = function(grid) {
     const rows = grid.length
     const cols = grid[0].length
+
     let count = 0;
-     
-    const dfs = (r,c)=>{
-        if(r < 0 || r >= rows||c < 0 || c >= cols)return
-        if(grid[r][c]!=='1') return
 
+    const bfs = (r,c)=>{
+        const queue = [[r,c]]
         grid[r][c] = '0'
-        dfs(r+1,c)
-        dfs(r-1,c)
-        dfs(r,c+1)
-        dfs(r,c-1)
+        
+        while(queue.length > 0){
+            const [row,col] = queue.shift()
+            const directions = [[1,0],[-1,0],[0,1],[0,-1]]
+            for(const [dr,dc] of directions){
+                const nr = row + dr
+                const nc = col + dc
+                if(nr < 0 || nr >= rows|| nc < 0 || nc >= cols)continue
+                if(grid[nr][nc] !== '1')continue
 
+                queue.push([nr,nc])
+                grid[nr][nc] = '0'
+            }
+
+        }
     }
+
     for(let r = 0; r < rows; r++){
         for(let c = 0; c < cols; c++){
             if(grid[r][c] === '1'){
                 count++
-                dfs(r,c)
+                bfs(r,c)
             }
-            
         }
     }
     return count
