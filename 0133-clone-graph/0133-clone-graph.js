@@ -11,21 +11,18 @@
  * @return {_Node}
  */
 var cloneGraph = function(node) {
-    if(node === null)return null
+    if(node===null)return null
 
     const map = new Map()
 
-    const dfs = (node) =>{
+    const dfs = (node)=>{
         if(map.has(node))return map.get(node)
-
-        const clone = new Node(node.val)
-        map.set(node,clone)
-
+        const copy = new Node(node.val)
+        map.set(node,copy)
         for(const neighbor of node.neighbors){
-            clone.neighbors.push(dfs(neighbor))
+            copy.neighbors.push(dfs(neighbor))
         }
-        return clone
+        return copy
     }
     return dfs(node)
- 
-};
+}
