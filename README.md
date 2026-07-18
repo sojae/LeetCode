@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/sojae/LeetCode/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/sojae/LeetCode/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/sojae/LeetCode/tree/master/0039-combination-sum) |
+| [0055-jump-game](https://github.com/sojae/LeetCode/tree/master/0055-jump-game) |
 | [0079-word-search](https://github.com/sojae/LeetCode/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sojae/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/sojae/LeetCode/tree/master/0128-longest-consecutive-sequence) |
@@ -202,11 +203,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/sojae/LeetCode/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/sojae/LeetCode/tree/master/0055-jump-game) |
 | [0435-non-overlapping-intervals](https://github.com/sojae/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/sojae/LeetCode/tree/master/0621-task-scheduler) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/sojae/LeetCode/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sojae/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0435-non-overlapping-intervals](https://github.com/sojae/LeetCode/tree/master/0435-non-overlapping-intervals) |
 ## Sliding Window
