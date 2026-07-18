@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/sojae/LeetCode/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/sojae/LeetCode/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/sojae/LeetCode/tree/master/0039-combination-sum) |
+| [0053-maximum-subarray](https://github.com/sojae/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/sojae/LeetCode/tree/master/0055-jump-game) |
 | [0079-word-search](https://github.com/sojae/LeetCode/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sojae/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/sojae/LeetCode/tree/master/0053-maximum-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sojae/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/sojae/LeetCode/tree/master/0347-top-k-frequent-elements) |
 ## Sorting
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/sojae/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/sojae/LeetCode/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sojae/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0435-non-overlapping-intervals](https://github.com/sojae/LeetCode/tree/master/0435-non-overlapping-intervals) |
