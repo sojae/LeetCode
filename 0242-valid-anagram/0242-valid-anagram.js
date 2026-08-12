@@ -19,4 +19,14 @@ var isAnagram = function(s, t) {
         count[char]--
     }
     return true
+    // const count = new Map()
+    // for(const char of s){
+    //     count.set(char, (count.get(char)||0)+1)
+    // }
+
+    // for(const char of t){
+    //     if(!count.get(char))return false
+    //     count.set(char, count.get(char)-1)
+    // }
+    // return true
 };
