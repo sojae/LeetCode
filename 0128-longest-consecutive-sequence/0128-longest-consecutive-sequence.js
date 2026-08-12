@@ -3,21 +3,19 @@
  * @return {number}
  */
 var longestConsecutive = function(nums) {
-    const newSet = new Set(nums);
-    let longest = 0;
-
+    const newSet = new Set(nums)
+    let result = 0
+    
     for(const num of newSet){
         if(!newSet.has(num-1)){
-            let current = num;
-            let streak = 1;
-
-            while(newSet.has(current + 1)){
-                current++;
-                streak++;
+            let current = num
+            let count = 1
+            while(newSet.has(current+1)){
+                current++
+                count++
             }
-            longest = Math.max(longest,streak)
+           result = Math.max(result,count)
         }
     }
-    return longest;
-    
+    return result
 };
